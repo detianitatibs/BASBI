@@ -9,8 +9,10 @@ B league AnalySis BI
 
 ## データ収集機能(data_collect)
 - 取得対象データ
+    - GAME INFORMATION
+        - 試合日や観客数など、試合に関する情報をまとめたデータ
     - GAME REPORT
-        - 試合のトータルスタッツがまとめられたデータ
+        - 試合のトータルスタッツをまとめたデータ
     - PLAY BY PLAY
         - クォーターごとに起こったプレーの出来事を時系列に記載したデータ
     -  BOX SCORE
