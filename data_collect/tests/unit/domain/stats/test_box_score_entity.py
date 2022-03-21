@@ -20,7 +20,7 @@ class TestBoxScoreEntity:
             10, 4, 9, 44.4,
             1, 4, 25.0, 1, 2, 50.0,
             0, 3, 3, 1, 4, 0, 0, 2,
-            0, 2, 0, 4
+            0, 2, 0, 4.0
         )
     ])
     def test_box_score_entity_01(
@@ -69,100 +69,100 @@ class TestBoxScoreEntity:
             eff=eff
         )
         # THEN: 正常に取得できる
-        isinstance(box_score, BoxScoreEntithy)
+        assert isinstance(box_score, BoxScoreEntithy)
 
-        isinstance(box_score.schedule_key, int)
+        assert isinstance(box_score.schedule_key, int)
         assert box_score.schedule_key == schedule_key
 
-        isinstance(box_score.home_away, str)
+        assert isinstance(box_score.home_away, str)
         assert box_score.home_away == home_away
 
-        isinstance(box_score.team_name, str)
+        assert isinstance(box_score.team_name, str)
         assert box_score.team_name == team_name
 
-        isinstance(box_score.no, int)
+        assert isinstance(box_score.no, int)
         assert box_score.no == no
 
-        isinstance(box_score.player_id, int)
+        assert isinstance(box_score.player_id, int)
         assert box_score.player_id == player_id
 
-        isinstance(box_score.player_name, int)
+        assert isinstance(box_score.player_name, str)
         assert box_score.player_name == player_name
 
-        isinstance(box_score.quoter, str)
+        assert isinstance(box_score.quoter, str)
         assert box_score.quoter == quoter
 
-        isinstance(box_score.start_flg, bool)
+        assert isinstance(box_score.start_flg, bool)
         assert box_score.start_flg == start_flg
 
-        isinstance(box_score.position, str)
+        assert isinstance(box_score.position, str)
         assert box_score.position == position
 
-        isinstance(box_score.minutes, time)
+        assert isinstance(box_score.minutes, time)
         assert box_score.minutes == minutes
 
-        isinstance(box_score.pts, int)
+        assert isinstance(box_score.pts, int)
         assert box_score.pts == pts
 
-        isinstance(box_score.fgm, int)
+        assert isinstance(box_score.fgm, int)
         assert box_score.fgm == fgm
 
-        isinstance(box_score.fga, int)
+        assert isinstance(box_score.fga, int)
         assert box_score.fga == fga
 
-        isinstance(box_score.fgr, float)
+        assert isinstance(box_score.fgr, float)
         assert box_score.fgr == fgr
 
-        isinstance(box_score.fgm3, int)
+        assert isinstance(box_score.fgm3, int)
         assert box_score.fgm3 == fgm3
 
-        isinstance(box_score.fga3, int)
+        assert isinstance(box_score.fga3, int)
         assert box_score.fga3 == fga3
         
-        isinstance(box_score.fgr3, float)
+        assert isinstance(box_score.fgr3, float)
         assert box_score.fgr3 == fgr3
 
-        isinstance(box_score.ftm, int)
+        assert isinstance(box_score.ftm, int)
         assert box_score.ftm == ftm
 
-        isinstance(box_score.fta, int)
+        assert isinstance(box_score.fta, int)
         assert box_score.fta == fta
 
-        isinstance(box_score.ftr, float)
+        assert isinstance(box_score.ftr, float)
         assert box_score.ftr == ftr
 
-        isinstance(box_score.ofr, int)
+        assert isinstance(box_score.ofr, int)
         assert box_score.ofr == ofr
 
-        isinstance(box_score.der, int)
+        assert isinstance(box_score.der, int)
         assert box_score.der == der
 
-        isinstance(box_score.tor, int)
+        assert isinstance(box_score.tor, int)
         assert box_score.tor == tor
 
-        isinstance(box_score.ast, int)
+        assert isinstance(box_score.ast, int)
         assert box_score.ast == ast
 
-        isinstance(box_score.to, int)
+        assert isinstance(box_score.to, int)
         assert box_score.to == to
 
-        isinstance(box_score.st, int)
+        assert isinstance(box_score.st, int)
         assert box_score.st == st
 
-        isinstance(box_score.bo, int)
+        assert isinstance(box_score.bo, int)
         assert box_score.bo == bo
 
-        isinstance(box_score.bsr, int)
+        assert isinstance(box_score.bsr, int)
         assert box_score.bsr == bsr
 
-        isinstance(box_score.fo, int)
+        assert isinstance(box_score.fo, int)
         assert box_score.fo == fo
 
-        isinstance(box_score.fd, int)
+        assert isinstance(box_score.fd, int)
         assert box_score.fd == fd
 
-        isinstance(box_score.dunk, int)
+        assert isinstance(box_score.dunk, int)
         assert box_score.dunk == dunk
 
-        isinstance(box_score.eff, float)
+        assert isinstance(box_score.eff, float)
         assert box_score.eff == eff
