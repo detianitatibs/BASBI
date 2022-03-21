@@ -6,7 +6,7 @@ class GamerReportEntity:
     """試合レポートを保持するエンティティ
     """
     schedule_key: int
-    home_away: str  # ホームアウェイ区分
+    home_away: str  # ホームアウェイ区分(H, A)
     team_name: str  # チーム(略称名)
     fgm: int  # 2 Points FGM (成功数)
     fga: int  # 2 Points FGA (試行数)
