@@ -61,58 +61,58 @@ class TestGameInfoEntity:
         )
 
         # THEN: 正常に取得できる
-        isinstance(game_info, GameInfoEntity)
+        assert isinstance(game_info, GameInfoEntity)
         
-        isinstance(game_info.schedule_key, int)
+        assert isinstance(game_info.schedule_key, int)
         assert game_info.schedule_key == schedule_key
 
-        isinstance(game_info.game_date, date)
+        assert isinstance(game_info.game_date, date)
         assert game_info.game_date == game_date
         
-        isinstance(game_info.tipoff, time)
+        assert isinstance(game_info.tipoff, time)
         assert game_info.tipoff == tipoff
 
-        isinstance(game_info.season, str)
+        assert isinstance(game_info.season, str)
         assert game_info.season == season
 
-        isinstance(game_info.division, str)
+        assert isinstance(game_info.division, str)
         assert game_info.division == division
 
-        isinstance(game_info.sec, int)
+        assert isinstance(game_info.sec, int)
         assert game_info.sec == sec
 
-        isinstance(game_info.arena, str)
+        assert isinstance(game_info.arena, str)
         assert game_info.arena == arena
 
-        isinstance(game_info.referee_1, str)
+        assert isinstance(game_info.referee_1, str)
         assert game_info.referee_1 == referee_1
 
-        isinstance(game_info.referee_2, str)
+        assert isinstance(game_info.referee_2, str)
         assert game_info.referee_2 == referee_2
 
-        isinstance(game_info.referee_3, str)
+        assert isinstance(game_info.referee_3, str)
         assert game_info.referee_3 == referee_3
 
-        isinstance(game_info.home_fullname, str)
+        assert isinstance(game_info.home_fullname, str)
         assert game_info.home_fullname == home_fullname
 
-        isinstance(game_info.home_name, str)
+        assert isinstance(game_info.home_name, str)
         assert game_info.home_name == home_name
 
-        isinstance(game_info.home_score, int)
+        assert isinstance(game_info.home_score, int)
         assert game_info.home_score == home_score
 
-        isinstance(game_info.home_score_q, list)
+        assert isinstance(game_info.home_score_q, list)
         assert game_info.home_score_q == home_score_q
 
-        isinstance(game_info.away_fullname, str)
+        assert isinstance(game_info.away_fullname, str)
         assert game_info.away_fullname == away_fullname
 
-        isinstance(game_info.away_name, str)
+        assert isinstance(game_info.away_name, str)
         assert game_info.away_name == away_name
 
-        isinstance(game_info.away_score, int)
+        assert isinstance(game_info.away_score, int)
         assert game_info.away_score == away_score
 
-        isinstance(game_info.away_score_q, list)
+        assert isinstance(game_info.away_score_q, list)
         assert game_info.away_score_q == away_score_q
