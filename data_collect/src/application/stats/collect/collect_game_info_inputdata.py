@@ -3,7 +3,6 @@ from datetime import date, time
 from typing import List
 
 
-
 @dataclass(frozen=True)
 class CollectGameInfoInputdata:
     """スクレイピングから取得した試合情報
@@ -23,4 +22,3 @@ class CollectGameInfoInputdata:
     home_score_q: List[int]  # ホームチームQ別得点
     away_score: int  # アウェイチーム総得点
     away_score_q: List[int]  # アウェイチームQ別得点
-    
