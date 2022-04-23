@@ -14,6 +14,7 @@ class GameInfoEntity:
     division: str # カテゴリ(ディビジョン)
     sec: int  # 節
     arena: str  # 会場名
+    attendance: int # 観客数
     referee_1: str  # レフェリー1
     referee_2: str  # レフェリー2
     referee_3: str  # レフェリー3
