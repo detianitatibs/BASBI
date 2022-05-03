@@ -1,5 +1,3 @@
-from re import A
-from turtle import home
 import pytest
 
 from src.application.stats.collect.collect_game_report_inputdata import CollectGameReportInputdata
