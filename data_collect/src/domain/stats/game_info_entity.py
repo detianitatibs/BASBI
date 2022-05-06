@@ -8,8 +8,8 @@ class GameInfoEntity:
     """試合情報を保持するエンティティ
     """
     schedule_key: int
-    game_date: date  # 試合日
-    tipoff: time  # 試合開始時間
+    game_date: str  # 試合日(YYYY-mm-dd)
+    tipoff: str  # 試合開始時間(HH:MM)
     season: str  # 年度
     division: str # カテゴリ(ディビジョン)
     sec: int  # 節
