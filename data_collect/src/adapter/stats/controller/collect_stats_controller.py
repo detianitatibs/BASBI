@@ -18,7 +18,7 @@ class CollectStatsController():
 
     @inject
     def __init__(self, interactor: ICollectStatsUsecase):
-        # userstoryなどのInterfaceを後で使うスペース
+        # usecaseなどのInterfaceを後で使うスペース
         self.interactor = interactor
         # 共通URL
         self.url = 'https://www.bleague.jp/game_detail/?ScheduleKey='
@@ -40,7 +40,7 @@ class CollectStatsController():
         list_box_score_inputdata = self._find_box_score(schedule_key, r_html)
         list_play_by_play_inputdata = self._find_playbyplay(schedule_key, r_html)
 
-        # interactorにinputdataを渡す
+        # usecaseにinputdataを渡す
         self.interactor.translate_and_save(
             game_info_inputdata,
             list_game_report_inputdata,
