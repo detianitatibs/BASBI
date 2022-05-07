@@ -10,7 +10,7 @@ class GameInfoEntity:
     schedule_key: int
     game_date: str  # 試合日(YYYY-mm-dd)
     tipoff: str  # 試合開始時間(HH:MM)
-    season: str  # 年度
+    season: str  # 年度 * 2019の場合は2019-20シーズン
     division: str # カテゴリ(ディビジョン)
     sec: int  # 節　*レギュラーシーズンの場合のみ存在
     arena: str  # 会場名
