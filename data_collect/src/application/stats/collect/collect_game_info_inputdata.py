@@ -9,7 +9,7 @@ class CollectGameInfoInputdata:
     schedule_key: int
     title: str # ページのタイトル(20YY-YY BXリーグ YYYY/mm/dd Home VS Away - B.LEAGUE（Bリーグ）公式サイト)
     tipoff: str  # 試合開始時間(HH:MM TIP OFF)
-    sec: str  # 節(第X節)
+    sec: str  # 節(第X節) *レギュラーシーズンの場合のみ存在
     arena: str  # 会場名(会場：XXXX)
     attendance: str # 観客数(人数：XXXX人)
     referee: str # レフェリー名(レフェリー：XX　XX／XX　XX／XX　XX)

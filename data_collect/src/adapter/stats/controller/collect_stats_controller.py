@@ -82,7 +82,11 @@ class CollectStatsController():
 
         date_wrap = r_html.find('div.date_wrap', first=True)
         s_tipoff = date_wrap.find('p.time', first=True).text
-        s_setsu = date_wrap.find('span.setsu', first=True).text
+        
+        s_setsu = None
+        span_setsu = date_wrap.find('span.setsu', first=True)
+        if span_setsu is not None:
+            s_setsu = date_wrap.find('span.setsu', first=True).text
 
         place_wrap = r_html.find('div.place_wrap', first=True)
         s_arena = place_wrap.find('p.StadiumNameJ', first=True).text

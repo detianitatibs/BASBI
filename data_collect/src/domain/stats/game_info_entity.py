@@ -12,7 +12,7 @@ class GameInfoEntity:
     tipoff: str  # 試合開始時間(HH:MM)
     season: str  # 年度
     division: str # カテゴリ(ディビジョン)
-    sec: int  # 節
+    sec: int  # 節　*レギュラーシーズンの場合のみ存在
     arena: str  # 会場名
     attendance: int # 観客数
     referee_1: str  # レフェリー1
