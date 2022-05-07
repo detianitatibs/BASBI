@@ -8,6 +8,7 @@ class GameInfoEntity:
     """試合情報を保持するエンティティ
     """
     schedule_key: int
+    title: str # ページのタイトル(20YY-YY BXリーグ YYYY/mm/dd Home VS Away - B.LEAGUE（Bリーグ）公式サイト)
     game_date: str  # 試合日(YYYY-mm-dd)
     tipoff: str  # 試合開始時間(HH:MM)
     season: str  # 年度 * 2019の場合は2019-20シーズン
