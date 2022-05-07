@@ -8,7 +8,7 @@ from src.domain.stats.play_by_play_entity import PlayByPlayEntity
 class TestPlayByPlayEntity:
     @pytest.mark.parametrize(
         "schedule_key, data_no, action_cd,"\
-        "home_away, period, time_remaining,"\
+        "home_away, quoter, time_remaining,"\
         "flg_point, point_home, point_away, details", [
             (
                 1, 495, '81',
@@ -18,7 +18,7 @@ class TestPlayByPlayEntity:
     ])
     def test_game_report_eintity_01(
         self, schedule_key, data_no, action_cd,
-        home_away, period, time_remaining,
+        home_away, quoter, time_remaining,
         flg_point, point_home, point_away, details):
         # CASE: パラメータを準備して
         # WHEN: エンティティを取得すると
@@ -27,7 +27,7 @@ class TestPlayByPlayEntity:
             data_no=data_no,
             action_cd=action_cd,
             home_away=home_away,
-            period=period,
+            quoter=quoter,
             time_remaining=time_remaining,
             flg_point=flg_point,
             point_home=point_home,
@@ -50,8 +50,8 @@ class TestPlayByPlayEntity:
         assert isinstance(play_by_play.home_away, str)
         assert play_by_play.home_away == home_away
 
-        assert isinstance(play_by_play.period, str)
-        assert play_by_play.period == period
+        assert isinstance(play_by_play.quoter, str)
+        assert play_by_play.quoter == quoter
 
         assert isinstance(time_remaining, time)
         assert play_by_play.time_remaining == time_remaining

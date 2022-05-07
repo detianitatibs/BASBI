@@ -6,23 +6,25 @@ from src.domain.stats.game_info_entity import GameInfoEntity
 
 class TestGameInfoEntity:
     @pytest.mark.parametrize(
-        "schedule_key, game_date, tipoff, season,"\
-        "division, sec, arena, referee_1, referee_2, referee_3,"\
+        "schedule_key, title, game_date, tipoff, season,"\
+        "division, sec, arena, attendance, referee_1, referee_2, referee_3,"\
         "home_fullname, home_name, home_score,"\
         "home_score_q,"\
         "away_fullname, away_name, away_score,"\
         "away_score_q,", [
             (
-                1, date(2021, 10, 1), time(13, 0, 0), '2021-22',
-                'B1', 1, '武道館', '審判1', '審判2', '審判3',
+                1, '20YY-YY BXリーグ YYYY/mm/dd Home VS Away - B.LEAGUE（Bリーグ）公式サイト', 
+                date(2021, 10, 1), time(13, 0, 0), '2021-22',
+                'B1', 1, '武道館', 1000, '審判1', '審判2', '審判3',
                 '東京アパッチ', 'アパッチ', 86,
                 [24, 21, 23, 32],
                 '和歌山トライアンズ', 'トライアンズ', 85,
                 [10, 32, 23, 32]
             ),
             (
-                2, date(2021, 10, 1), time(13, 0, 0), '2021-22',
-                'B1', 1, '武道館', '審判1', '審判2', '審判3',
+                2, '20YY-YY BXリーグ YYYY/mm/dd Home VS Away - B.LEAGUE（Bリーグ）公式サイト', 
+                date(2021, 10, 1), time(13, 0, 0), '2021-22',
+                'B1', 1, '武道館', 1000, '審判1', '審判2', '審判3',
                 '東京アパッチ', 'アパッチ', 86,
                 [24, 21, 23, 32, 5, 10],
                 '和歌山トライアンズ', 'トライアンズ', 85,
@@ -30,8 +32,8 @@ class TestGameInfoEntity:
             )
     ])
     def test_game_info_entity_01(
-        self, schedule_key, game_date, tipoff, season,
-        division, sec, arena, referee_1, referee_2, referee_3,
+        self, schedule_key, title, game_date, tipoff, season,
+        division, sec, arena, attendance, referee_1, referee_2, referee_3,
         home_fullname, home_name, home_score,
         home_score_q,
         away_fullname, away_name, away_score,
@@ -41,12 +43,14 @@ class TestGameInfoEntity:
         # WHEN: エンティティを取得すると
         game_info = GameInfoEntity(
             schedule_key=schedule_key,
+            title=title,
             game_date=game_date,
             tipoff=tipoff,
             season=season,
             division=division,
             sec=sec,
             arena=arena,
+            attendance=attendance,
             referee_1=referee_1,
             referee_2=referee_2,
             referee_3=referee_3,
@@ -66,6 +70,9 @@ class TestGameInfoEntity:
         assert isinstance(game_info.schedule_key, int)
         assert game_info.schedule_key == schedule_key
 
+        assert isinstance(game_info.title, str)
+        assert game_info.title == title
+
         assert isinstance(game_info.game_date, date)
         assert game_info.game_date == game_date
         
@@ -83,6 +90,9 @@ class TestGameInfoEntity:
 
         assert isinstance(game_info.arena, str)
         assert game_info.arena == arena
+
+        assert isinstance(game_info.attendance, int)
+        assert game_info.attendance == attendance
 
         assert isinstance(game_info.referee_1, str)
         assert game_info.referee_1 == referee_1
