@@ -1,7 +1,7 @@
 import pytest
 from datetime import time
 
-from src.domain.stats.box_score_entity import BoxScoreEntithy
+from src.domain.stats.box_score_entity import BoxScoreEntity
 
 
 class TestBoxScoreEntity:
@@ -34,7 +34,7 @@ class TestBoxScoreEntity:
     ):
         # CASE: パラメータを準備して
         # WHEN: エンティティを取得すると
-        box_score = BoxScoreEntithy(
+        box_score = BoxScoreEntity(
             schedule_key=schedule_key,
             home_away=home_away,
             team_name=team_name,
@@ -69,7 +69,7 @@ class TestBoxScoreEntity:
             eff=eff
         )
         # THEN: 正常に取得できる
-        assert isinstance(box_score, BoxScoreEntithy)
+        assert isinstance(box_score, BoxScoreEntity)
 
         assert isinstance(box_score.schedule_key, int)
         assert box_score.schedule_key == schedule_key

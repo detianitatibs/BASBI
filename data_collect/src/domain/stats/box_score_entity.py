@@ -3,7 +3,7 @@ from datetime import time
 
 
 @dataclass(frozen=True)
-class BoxScoreEntithy:
+class BoxScoreEntity:
     """ボックススコア
     """
     schedule_key: int
