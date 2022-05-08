@@ -1,0 +1,5 @@
+requests-html
+beautifulsoup4
+bs4
+lxml
+injector
