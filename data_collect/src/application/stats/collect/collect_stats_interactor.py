@@ -39,6 +39,7 @@ class CollectStatsInteractor(ICollectStatsUsecase):
 
     def translate_and_save(
         self,
+        schedule_key: int,
         collect_game_info_inputdata: CollectGameInfoInputdata,
         list_collect_game_report_inputdata: List[CollectGameReportInputdata],
         list_collect_box_score_inputdata: List[CollectBoxScoreInputdata],
@@ -47,6 +48,7 @@ class CollectStatsInteractor(ICollectStatsUsecase):
         """取得したデータを加工して出力する
 
         Args:
+            schedule_key (int): 試合番号
             collect_game_info_inputdata (CollectGameInfoInputdata): GameInfoのインプットデータ
             list_collect_game_report_inputdata (List[CollectGameReportInputdata]): GameRportのインプットデータ
             list_collect_box_score_inputdata (List[CollectBoxScoreInputdata]): BoxScoreのインプットデータ
@@ -59,10 +61,10 @@ class CollectStatsInteractor(ICollectStatsUsecase):
         list_play_by_play_entity = self._translate_play_by_play(list_collect_play_by_play_inputdata)
 
         # それぞれ保存する
-        self.game_info_repository.save(game_info_entity)
-        self.game_report_repository.save(list_game_report_entity)
-        self.box_score_repository.save(list_box_score_entity)
-        self.play_by_play_repository.save(list_play_by_play_entity)
+        self.game_info_repository.save(schedule_key, game_info_entity)
+        self.game_report_repository.save(schedule_key, list_game_report_entity)
+        self.box_score_repository.save(schedule_key, list_box_score_entity)
+        self.play_by_play_repository.save(schedule_key, list_play_by_play_entity)
 
     def _translate_game_info(self, inputdata: CollectGameInfoInputdata) -> GameInfoEntity:
         """GameInfoのinputdataからEntityへの変換
