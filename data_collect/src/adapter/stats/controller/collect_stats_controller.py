@@ -42,6 +42,7 @@ class CollectStatsController():
 
         # usecaseにinputdataを渡す
         self.interactor.translate_and_save(
+            schedule_key,
             game_info_inputdata,
             list_game_report_inputdata,
             list_box_score_inputdata,
@@ -60,11 +61,14 @@ class CollectStatsController():
         self.url = self.url + str(schedule_key)
 
         # B LEAGUE公式ページからデータをスクレイピングする
-        session = HTMLSession()
-        r = session.get(self.url)
-        r.html.render()
-        logger.debug(r.html)
-        logger.debug(type(r.html))
+        try:
+            session = HTMLSession()
+            r = session.get(self.url)
+            r.html.render()
+            logger.debug(r.html)
+            logger.info('success scraping from html: {}'.format(self.url))
+        except Exception as e:
+            logger.error('failed scraping from html: {}'.format(e))
         return r.html
 
     def _find_game_info(
@@ -328,6 +332,22 @@ class CollectStatsController():
                     data_player_id = tr_box_score.attrs['data-player-id']
                     tds_box_score = tr_box_score.find('td')
                     list_stats = [td_box_score.text for td_box_score in tds_box_score]
+                    # list_stats: 27->スタートフラグとダンク有
+                    # list_stats: 26->スタートフラグ有、ダンク無
+                    # list_stats: 25->スタートフラグとダンク無
+                    if len(list_stats) == 27:
+                        dunk = int(list_stats[25])
+                        eff = None if list_stats[26] == '' else float(list_stats[26])
+                    elif len(list_stats) == 26:
+                        list_stats.insert(25, None)
+                        dunk = list_stats[25]
+                        eff = None if list_stats[26] == '' else float(list_stats[26])
+                    else:
+                        list_stats.insert(1, None)
+                        list_stats.insert(25, None)
+                        dunk = list_stats[25]
+                        eff = None if list_stats[26] == '' else float(list_stats[26])
+
                     inputdata = CollectBoxScoreInputdata(
                         schedule_key=schedule_key,
                         # <Element 'tbody' data-period-category='4' class=('Home',)から'class'の1文字目を取得
@@ -340,28 +360,28 @@ class CollectStatsController():
                         player_name=tr_box_score.find('span.for-pc', first=True).text,
                         position=list_stats[3],
                         minutes=list_stats[4],
-                        pts=int(list_stats[5]),
-                        fgm=int(list_stats[6]),
-                        fga=int(list_stats[7]),
+                        pts=int(list_stats[5]) if list_stats[5] != '' else 0,
+                        fgm=int(list_stats[6]) if list_stats[6] != '' else 0,
+                        fga=int(list_stats[7]) if list_stats[7] != '' else 0,
                         fgr=list_stats[8],
-                        fgm3=int(list_stats[9]),
-                        fga3=int(list_stats[10]),
-                        fgr3=list_stats[11],
-                        ftm=int(list_stats[12]),
-                        fta=int(list_stats[13]),
+                        fgm3=int(list_stats[9]) if list_stats[8] != '' else 0,
+                        fga3=int(list_stats[10]) if list_stats[9] != '' else 0,
+                        fgr3=list_stats[11] if list_stats[10] != '' else 0,
+                        ftm=int(list_stats[12]) if list_stats[11] != '' else 0,
+                        fta=int(list_stats[13]) if list_stats[12] != '' else 0,
                         ftr=list_stats[14],
-                        ofr=int(list_stats[15]),
-                        der=int(list_stats[16]),
-                        tor=int(list_stats[17]),
-                        ast=int(list_stats[18]),
-                        to=int(list_stats[19]),
-                        st=int(list_stats[20]),
-                        bo=int(list_stats[21]),
-                        bsr=int(list_stats[22]),
-                        fo=int(list_stats[23]),
-                        fd=int(list_stats[24]),
-                        dunk=int(list_stats[25]),
-                        eff=float(list_stats[26])
+                        ofr=int(list_stats[15]) if list_stats[15] != '' else 0,
+                        der=int(list_stats[16]) if list_stats[16] != '' else 0,
+                        tor=int(list_stats[17]) if list_stats[17] != '' else 0,
+                        ast=int(list_stats[18]) if list_stats[18] != '' else 0,
+                        to=int(list_stats[19]) if list_stats[19] != '' else 0,
+                        st=int(list_stats[20]) if list_stats[20] != '' else 0,
+                        bo=int(list_stats[21]) if list_stats[21] != '' else 0,
+                        bsr=int(list_stats[22]) if list_stats[22] != '' else 0,
+                        fo=int(list_stats[23]) if list_stats[23] != '' else 0,
+                        fd=int(list_stats[24]) if list_stats[24] != '' else 0,
+                        dunk=dunk,
+                        eff=eff
                     )
                     list_inputdata.append(inputdata)
 
@@ -374,6 +394,24 @@ class CollectStatsController():
                     data_player_id = tr_box_score.attrs['data-player-id']
                     tds_box_score = tr_box_score.find('td')
                     list_stats = [td_box_score.text for td_box_score in tds_box_score]
+                    # list_stats: 27->スタートフラグとダンク有
+                    # list_stats: 26->スタートフラグ有、ダンク無
+                    # list_stats: 25->スタートフラグとダンク無
+                    if len(list_stats) == 27:
+                        dunk = int(list_stats[25])
+                        eff = None if list_stats[26] == '' else float(list_stats[26])
+                    elif len(list_stats) == 26:
+                        list_stats.insert(25, None)
+                        logger.info(list_stats)
+                        dunk = list_stats[25]
+                        eff = None if list_stats[26] == '' else float(list_stats[26])
+                    else:
+                        list_stats.insert(1, None)
+                        list_stats.insert(25, None)
+                        logger.info(list_stats)
+                        dunk = list_stats[25]
+                        eff = None if list_stats[26] == '' else float(list_stats[26])
+
                     inputdata = CollectBoxScoreInputdata(
                         schedule_key=schedule_key,
                         # <Element 'tbody' data-period-category='4' class=('Home',)から'class'の1文字目を取得
@@ -386,28 +424,28 @@ class CollectStatsController():
                         player_name=list_stats[2],
                         position=list_stats[3],
                         minutes=list_stats[4],
-                        pts=int(list_stats[5]),
-                        fgm=int(list_stats[6]),
-                        fga=int(list_stats[7]),
+                        pts=int(list_stats[5]) if list_stats[5] != '' else 0,
+                        fgm=int(list_stats[6]) if list_stats[6] != '' else 0,
+                        fga=int(list_stats[7]) if list_stats[7] != '' else 0,
                         fgr=list_stats[8],
-                        fgm3=int(list_stats[9]),
-                        fga3=int(list_stats[10]),
+                        fgm3=int(list_stats[9]) if list_stats[9] != '' else 0,
+                        fga3=int(list_stats[10]) if list_stats[10] != '' else 0,
                         fgr3=list_stats[11],
-                        ftm=int(list_stats[12]),
-                        fta=int(list_stats[13]),
+                        ftm=int(list_stats[12]) if list_stats[12] != '' else 0,
+                        fta=int(list_stats[13]) if list_stats[13] != '' else 0,
                         ftr=list_stats[14],
-                        ofr=int(list_stats[15]),
-                        der=int(list_stats[16]),
-                        tor=int(list_stats[17]),
-                        ast=int(list_stats[18]),
-                        to=int(list_stats[19]),
-                        st=int(list_stats[20]),
-                        bo=int(list_stats[21]),
-                        bsr=int(list_stats[22]),
-                        fo=int(list_stats[23]),
-                        fd=int(list_stats[24]),
-                        dunk=int(list_stats[25]),
-                        eff=float(list_stats[26])
+                        ofr=int(list_stats[15]) if list_stats[15] != '' else 0,
+                        der=int(list_stats[16]) if list_stats[16] != '' else 0,
+                        tor=int(list_stats[17]) if list_stats[17] != '' else 0,
+                        ast=int(list_stats[18]) if list_stats[18] != '' else 0,
+                        to=int(list_stats[19]) if list_stats[19] != '' else 0,
+                        st=int(list_stats[20]) if list_stats[20] != '' else 0,
+                        bo=int(list_stats[21]) if list_stats[21] != '' else 0,
+                        bsr=int(list_stats[22]) if list_stats[22] != '' else 0,
+                        fo=int(list_stats[23]) if list_stats[23] != '' else 0,
+                        fd=int(list_stats[24]) if list_stats[24] != '' else 0,
+                        dunk=dunk,
+                        eff=eff
                     )
                     list_inputdata.append(inputdata)
 
