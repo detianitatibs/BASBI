@@ -6,5 +6,5 @@ from .game_report_entity import GamerReportEntity
 
 class IGameReportRepository(metaclass=ABCMeta):
     @abstractclassmethod
-    def save(self, list_game_report_entity: List[GamerReportEntity]):
+    def save(self, schedule_key: int, list_game_report_entity: List[GamerReportEntity]):
         pass

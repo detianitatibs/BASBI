@@ -6,5 +6,5 @@ from .box_score_entity import BoxScoreEntity
 
 class IBoxScoreRepository(metaclass=ABCMeta):
     @abstractclassmethod
-    def save(self, list_box_score_entity: List[BoxScoreEntity]):
+    def save(self, schedule_key: int, list_box_score_entity: List[BoxScoreEntity]):
         pass

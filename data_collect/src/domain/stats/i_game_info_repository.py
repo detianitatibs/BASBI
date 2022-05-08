@@ -5,5 +5,5 @@ from .game_info_entity import GameInfoEntity
 
 class IGameInfoRepository(metaclass=ABCMeta):
     @abstractclassmethod
-    def save(self, game_info_entity: GameInfoEntity):
+    def save(self, schedule_key: int, game_info_entity: GameInfoEntity):
         pass
