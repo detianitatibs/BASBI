@@ -15,7 +15,7 @@ class BoxScoreEntity:
     quoter: str  # クォーターカテゴリ(ALL, 1Q, 2Q, 3Q, 4Q, EX1...)
     start_flg: bool  # スターティングフラグ
     position: str  # ポジション
-    minutes: time  # 出場時間(MM:SS)
+    minutes: str  # 出場時間(MM:SS)
     pts: int  # Total Points
     fgm: int  # 2 Points FGM (成功数)
     fga: int  # 2 Points FGA (試行数)

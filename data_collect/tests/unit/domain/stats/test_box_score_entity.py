@@ -16,7 +16,7 @@ class TestBoxScoreEntity:
         (
             141, 'H',
             "横浜ビー・コルセアーズ", 0, 8712, "細谷 将司",
-            "ALL", True, "PG", time(0, 36, 11),
+            "ALL", True, "PG", '36:11',
             10, 4, 9, 44.4,
             1, 4, 25.0, 1, 2, 50.0,
             0, 3, 3, 1, 4, 0, 0, 2,
@@ -98,7 +98,7 @@ class TestBoxScoreEntity:
         assert isinstance(box_score.position, str)
         assert box_score.position == position
 
-        assert isinstance(box_score.minutes, time)
+        assert isinstance(box_score.minutes, str)
         assert box_score.minutes == minutes
 
         assert isinstance(box_score.pts, int)
