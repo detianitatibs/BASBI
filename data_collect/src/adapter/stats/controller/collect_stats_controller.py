@@ -67,7 +67,7 @@ class CollectStatsController():
         try:
             session = HTMLSession()
             r = session.get(self.url)
-            r.html.render()
+            r.html.render(timeout=60)
             logger.debug(r.html)
             logger.info('success scraping from html: {}'.format(self.url))
         except Exception as e:
