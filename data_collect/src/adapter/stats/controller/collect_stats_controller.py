@@ -132,9 +132,11 @@ class CollectStatsController():
                 total_score_home = int(quarter_score_home)
                 total_score_away = int(quarter_score_away)
             else:
-                # それ以外のときは、quarterの点数なので、リストに追加する
-                list_score_home.append(int(quarter_score_home))
-                list_score_away.append(int(quarter_score_away))
+                # それ以外のときは、quarterの点数なので、リストに追加する(空白の場合は処理を飛ばす)
+                if quarter_score_home.replace('&nbsp;', '') != '':
+                    list_score_home.append(int(quarter_score_home))
+                if quarter_score_away.replace('&nbsp;', '') != '':
+                    list_score_away.append(int(quarter_score_away))
 
         inputdata = CollectGameInfoInputdata(
             schedule_key=schedule_key,
