@@ -111,8 +111,15 @@ class CollectStatsController():
         list_score_away = []
         for tr in game_score_tr:
             quarter_name = tr.find('span.name', first=True).text
-            quarter_score_home = tr.find('td.quarter_score.home', first=True).text
-            quarter_score_away = tr.find('td.quarter_score.away', first=True).text
+            if tr.find('td.quarter_score.home', first=True) is None:
+                # quarter_score home/awayはHome/Awayのパターンもある
+                quarter_score_home_td = tr.find('td.quarter_score.Home', first=True)
+                quarter_score_away_td = tr.find('td.quarter_score.Away', first=True)
+            else:
+                quarter_score_home_td = tr.find('td.quarter_score.home', first=True)
+                quarter_score_away_td = tr.find('td.quarter_score.away', first=True)
+            quarter_score_home = quarter_score_home_td.text
+            quarter_score_away = quarter_score_away_td.text
             if quarter_name == 'F':
                 # 'F'のときはトータルスコアとなる
                 total_score_home = int(quarter_score_home)
