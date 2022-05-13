@@ -36,18 +36,21 @@ class CollectStatsController():
 
         # 各項目に整形して取得する
         game_info_inputdata = self._find_game_info(schedule_key, r_html)
-        list_game_report_inputdata = self._find_game_report(schedule_key, r_html)
-        list_box_score_inputdata = self._find_box_score(schedule_key, r_html)
-        list_play_by_play_inputdata = self._find_playbyplay(schedule_key, r_html)
-
-        # usecaseにinputdataを渡す
-        self.interactor.translate_and_save(
-            schedule_key,
-            game_info_inputdata,
-            list_game_report_inputdata,
-            list_box_score_inputdata,
-            list_play_by_play_inputdata
-        )
+        if game_info_inputdata is not None:
+            list_game_report_inputdata = self._find_game_report(schedule_key, r_html)
+            list_box_score_inputdata = self._find_box_score(schedule_key, r_html)
+            list_play_by_play_inputdata = self._find_playbyplay(schedule_key, r_html)
+    
+            # usecaseにinputdataを渡す
+            self.interactor.translate_and_save(
+                schedule_key,
+                game_info_inputdata,
+                list_game_report_inputdata,
+                list_box_score_inputdata,
+                list_play_by_play_inputdata
+            )
+        else:
+            logger.warning('試合情報が無いため取得処理終了。schedule_key: {}'.format(str(schedule_key)))
 
     def _collect_from_web(self, schedule_key: int) -> HTML:
         """Webからのデータ取得
@@ -64,7 +67,7 @@ class CollectStatsController():
         try:
             session = HTMLSession()
             r = session.get(self.url)
-            r.html.render()
+            r.html.render(timeout=60)
             logger.debug(r.html)
             logger.info('success scraping from html: {}'.format(self.url))
         except Exception as e:
@@ -105,22 +108,35 @@ class CollectStatsController():
         s_away_for_pc = team_wrap_away.find('p.for-pc', first=True).text
         s_away_for_sp = team_wrap_away.find('p.for-sp', first=True).text
 
+        if s_home_for_pc == '':
+            # もし、ホームのチーム名が取得できなかったときは、空情報として情報取得をやめる
+            return None
+
         game_score_wrap = r_html.find('div.game_score_wrap', first=True)
         game_score_tr = game_score_wrap.find('tr')
         list_score_home = []
         list_score_away = []
         for tr in game_score_tr:
             quarter_name = tr.find('span.name', first=True).text
-            quarter_score_home = tr.find('td.quarter_score.home', first=True).text
-            quarter_score_away = tr.find('td.quarter_score.away', first=True).text
+            if tr.find('td.quarter_score.home', first=True) is None:
+                # quarter_score home/awayはHome/Awayのパターンもある
+                quarter_score_home_td = tr.find('td.quarter_score.Home', first=True)
+                quarter_score_away_td = tr.find('td.quarter_score.Away', first=True)
+            else:
+                quarter_score_home_td = tr.find('td.quarter_score.home', first=True)
+                quarter_score_away_td = tr.find('td.quarter_score.away', first=True)
+            quarter_score_home = quarter_score_home_td.text
+            quarter_score_away = quarter_score_away_td.text
             if quarter_name == 'F':
                 # 'F'のときはトータルスコアとなる
                 total_score_home = int(quarter_score_home)
                 total_score_away = int(quarter_score_away)
             else:
-                # それ以外のときは、quarterの点数なので、リストに追加する
-                list_score_home.append(int(quarter_score_home))
-                list_score_away.append(int(quarter_score_away))
+                # それ以外のときは、quarterの点数なので、リストに追加する(空白の場合は処理を飛ばす)
+                if quarter_score_home.replace('&nbsp;', '') != '':
+                    list_score_home.append(int(quarter_score_home))
+                if quarter_score_away.replace('&nbsp;', '') != '':
+                    list_score_away.append(int(quarter_score_away))
 
         inputdata = CollectGameInfoInputdata(
             schedule_key=schedule_key,
