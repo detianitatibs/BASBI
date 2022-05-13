@@ -9,7 +9,7 @@ B league AnalySis BI
 
 実行前に、`data_collect`ディレクトリまでのPathを通しておくこと
 ```
-export BASBIPATH="<data_collectまでのパス>";PYTHONPATH="${PYTHONPATH}:${BASBIPATH}"
+export BASBIPATH="<data_collectまでのパス>";PYTHONPATH="${BASBIPATH}:${PYTHONPATH}"
 ```
 
 ## データ収集機能(data_collect)
