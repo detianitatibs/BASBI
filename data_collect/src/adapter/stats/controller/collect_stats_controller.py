@@ -36,18 +36,21 @@ class CollectStatsController():
 
         # 各項目に整形して取得する
         game_info_inputdata = self._find_game_info(schedule_key, r_html)
-        list_game_report_inputdata = self._find_game_report(schedule_key, r_html)
-        list_box_score_inputdata = self._find_box_score(schedule_key, r_html)
-        list_play_by_play_inputdata = self._find_playbyplay(schedule_key, r_html)
-
-        # usecaseにinputdataを渡す
-        self.interactor.translate_and_save(
-            schedule_key,
-            game_info_inputdata,
-            list_game_report_inputdata,
-            list_box_score_inputdata,
-            list_play_by_play_inputdata
-        )
+        if game_info_inputdata is not None:
+            list_game_report_inputdata = self._find_game_report(schedule_key, r_html)
+            list_box_score_inputdata = self._find_box_score(schedule_key, r_html)
+            list_play_by_play_inputdata = self._find_playbyplay(schedule_key, r_html)
+    
+            # usecaseにinputdataを渡す
+            self.interactor.translate_and_save(
+                schedule_key,
+                game_info_inputdata,
+                list_game_report_inputdata,
+                list_box_score_inputdata,
+                list_play_by_play_inputdata
+            )
+        else:
+            logger.warning('試合情報が無いため取得処理終了。schedule_key: {}'.format(str(schedule_key)))
 
     def _collect_from_web(self, schedule_key: int) -> HTML:
         """Webからのデータ取得
@@ -104,6 +107,10 @@ class CollectStatsController():
         team_wrap_away = r_html.find('div.team_wrap.away', first=True)
         s_away_for_pc = team_wrap_away.find('p.for-pc', first=True).text
         s_away_for_sp = team_wrap_away.find('p.for-sp', first=True).text
+
+        if s_home_for_pc == '':
+            # もし、ホームのチーム名が取得できなかったときは、空情報として情報取得をやめる
+            return None
 
         game_score_wrap = r_html.find('div.game_score_wrap', first=True)
         game_score_tr = game_score_wrap.find('tr')

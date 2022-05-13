@@ -62,8 +62,8 @@ class TestCollectStatsControllerInner():
         cs = injector.get(CollectStatsController)
         inputdata = cs._find_game_info(1, r_html)
 
-        # THEN: GAME INFORMATIONに必要な情報を取得できる
-        assert isinstance(inputdata, CollectGameInfoInputdata)
+        # THEN: 試合情報がないため、Noneとなっている
+        assert inputdata is None
     
     def test_find_game_info_04(
             self,
@@ -109,20 +109,7 @@ class TestCollectStatsControllerInner():
         assert isinstance(list_inputdata, List)
         assert isinstance(list_inputdata[0], CollectGameReportInputdata)
     
-    def test_find_game_report_03(
-            self,
-            init_r_html_03: HTML):
-        # CASE: テスト用のr_htmlをfixtureから取得する
-        r_html = init_r_html_03
-
-        # WHEN: _find_game_reportを実行する
-        injector = Injector([TaskDIModule()])
-        cs = injector.get(CollectStatsController)
-        list_inputdata = cs._find_game_report(1, r_html)
-
-        # THEN: GAME REPORTに必要な情報を取得できる
-        assert isinstance(list_inputdata, List)
-        assert isinstance(list_inputdata[0], CollectGameReportInputdata)
+    # test_find_game_report_03 は処理されないのでテストスキップ
     
     def test_find_game_report_04(
             self,
@@ -169,20 +156,7 @@ class TestCollectStatsControllerInner():
         assert isinstance(list_inputdata, List)
         assert isinstance(list_inputdata[0], CollectBoxScoreInputdata)
 
-    def test_find_box_score_03(
-            self,
-            init_r_html_03: HTML):
-        # CASE: テスト用のr_htmlをfixtureから取得する
-        r_html = init_r_html_03
-
-        # WHEN: _find_box_scoreを実行する
-        injector = Injector([TaskDIModule()])
-        cs = injector.get(CollectStatsController)
-        list_inputdata = cs._find_box_score(1, r_html)
-
-        # THEN: BOX SCOREに必要な情報を取得できる
-        assert isinstance(list_inputdata, List)
-        assert isinstance(list_inputdata[0], CollectBoxScoreInputdata)
+    # test_find_box_score_03は処理されないのでテストスキップ
 
     def test_find_box_score_04(
             self,
@@ -229,20 +203,7 @@ class TestCollectStatsControllerInner():
         assert isinstance(list_inputdata, List)
         assert isinstance(list_inputdata[0], CollectPlayByPlayInputdata)
 
-    def test_find_playbyplay_03(
-            self,
-            init_r_html_03: HTML):
-        # CASE: テスト用のr_htmlをfixtureから取得する
-        r_html = init_r_html_03
-
-        # WHEN: _find_playbyplayを実行する
-        injector = Injector([TaskDIModule()])
-        cs = injector.get(CollectStatsController)
-        list_inputdata = cs._find_playbyplay(1, r_html)
-
-        # THEN: PLAY BY PLAYに必要な情報を取得できる
-        assert isinstance(list_inputdata, List)
-        assert isinstance(list_inputdata[0], CollectPlayByPlayInputdata)
+    # test_find_playbyplay_03は処理されないのでテストスキップ
 
     def test_find_playbyplay_04(
             self,
