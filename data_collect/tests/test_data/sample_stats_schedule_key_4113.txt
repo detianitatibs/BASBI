@@ -1,0 +1,1110 @@
+<!DOCTYPE html><html lang="ja"><head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>   VS  - B.LEAGUE（Bリーグ）公式サイト</title>
+<meta name="keywords" content="B.LEAGUE,Bリーグ,バスケットボール,バスケット,バスケ,プロリーグ,プロバスケ">
+<meta name="description" content="国内男子プロバスケットボールリーグ「B.LEAGUE（Bリーグ）」公式サイト">
+
+    <meta property="og:title" content="   VS ">
+    <meta property="og:image" content="https://www.bleague.jp/files/user/img/ogp_blg.png">
+    <meta property="og:description" content="   VS ">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="B.LEAGUE（Bリーグ）公式サイト">
+    <meta property="og:url" content="https://www.bleague.jp/game_detail/?ScheduleKey=4113">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="   VS ">
+    <meta property="twitter:description" content="   VS ">
+    <meta property="twitter:image" content="https://www.bleague.jp/files/user/img/ogp_blg.png">
+    <meta property="twitter:site" content="@B_LEAGUE">
+    <meta property="twitter:creator" content="@B_LEAGUE">
+    <meta property="fb:app_id" content="196745333994023">
+
+
+
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://www.bleague.jp/files/user/league_common/img/libs/favicon.png?v=1518578008">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.bleague.jp/files/user/league_common/img/libs/icon_touch.png?v=1518578007">
+<link rel="apple-touch-icon-precomposed" href="https://www.bleague.jp/files/user/league_common/img/libs/icon_touch.png?v=1518578007">
+<link rel="shortcut icon" href="https://www.bleague.jp/files/user/league_common/img/libs/icon_touch.png?v=1518578007">
+<link rel="icon" sizes="192x192" href="https://www.bleague.jp/files/user/league_common/img/libs/icon_touch.png?v=1518578007">
+
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel="stylesheet" href="https://www.bleague.jp/files/user/fonts/google_font/notosansjapanese.css?v=1569289652">
+<link rel="stylesheet" href="https://www.bleague.jp/files/css/front/user/magnific-popup.css?v=1615167754">
+
+<link rel="stylesheet" href="https://www.bleague.jp/files/css/front/user/league_common_test.css?v=1637223727">
+<link rel="stylesheet" href="https://www.bleague.jp/files/css/front/user/common_test.css?v=1643773213&amp;1643773153">
+<link rel="stylesheet" href="https://www.bleague.jp/files/user/league_common/css/ie.css?v=1513571070">
+
+
+
+<!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<![endif]-->
+
+<script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/config.js?sdkid=C0U97HHURMH959SC2R5G&amp;hostname=www.bleague.jp"></script><script type="text/javascript" src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script><script async="" src="https://b92.yahoo.co.jp/search/?p=UMR81QKF8F&amp;label=&amp;ref=https%3A%2F%2Fwww.bleague.jp%2Fgame_detail%2F%3FScheduleKey%3D4113&amp;rref=&amp;pt=&amp;item=&amp;cat=&amp;price=&amp;quantity=&amp;r=1652460597.9600756&amp;pvid=m44fze7w5el34odh11&amp;tsyjad=0"></script><script type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" src="//yjtag.yahoo.co.jp/tag?site=JJkzVlU&amp;referrer=https%3A%2F%2Fwww.bleague.jp%2Fgame_detail%2F%3FScheduleKey%3D4113&amp;H=2qdzbc5"></script><script type="text/javascript" async="" src="//cs.nakanohito.jp/b3/bi.js"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C0U97HHURMH959SC2R5G&amp;lib=ttq"></script><script src="https://connect.facebook.net/signals/config/584188252396950?v=2.9.59&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/config/2477941125595838?v=2.9.59&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion_async.js"></script><script gtm="GTM-T3JDL9H" type="text/javascript" async="" src="https://www.google-analytics.com/gtm/optimize.js?id=OPT-52Z8DNW"></script><script type="text/javascript" async="" src="https://static.ads-twitter.com/uwt.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-NVC54EN91X&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script><script type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion_async.js"></script><script async="" src="//s.yjtag.jp/tag.js#site=JJkzVlU&amp;referrer=https%3A%2F%2Fwww.bleague.jp%2Fgame_detail%2F%3FScheduleKey%3D4113"></script><script async="" src="//uh.nakanohito.jp/uhj2/uh.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-P6HC6G6"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-T3JDL9H"></script><script src="https://www.bleague.jp/files/user/league_common/js/const.js?v=1584432506"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://www.bleague.jp/files/user/js/jquery.magnific-popup.min.js?v=1513932933"></script>
+<script src="https://www.bleague.jp/files/js/front/user/common_js_test.js?v=1632961460"></script>
+<!--<script src="https://www.bleague.jp/files/js/front/user/common_js.js?v=1594028062"></script>-->
+
+<script src="https://www.bleague.jp/files/user/js/ticket_redirect.js?v=1561895509"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.bleague.jp/files/css/front/customize.css?v=1615167754">
+
+<!-- Google Tag Manager -->
+<script>
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T3JDL9H');
+
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P6HC6G6');</script>
+
+<!-- End Google Tag Manager -->
+
+
+<!-- User Heat Tag -->
+<script type="text/javascript">
+
+(function(add, cla){window['UserHeatTag']=cla;window[cla]=window[cla]||function(){(window[cla].q=window[cla].q||[]).push(arguments)},window[cla].l=1*new Date();var ul=document.createElement('script');var tag = document.getElementsByTagName('script')[0];ul.async=1;ul.src=add;tag.parentNode.insertBefore(ul,tag);})('//uh.nakanohito.jp/uhj2/uh.js', '_uhtracker');_uhtracker({id:'uhpMKHF28D'});
+
+</script>
+<!-- End User Heat Tag -->
+
+<style type="text/css"><!--
+#main_contents .pdf_area li {
+	background-position: 0 13px;
+}
+--></style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.bleague.jp/files/css/front/user/game.css?v=1651116476">
+<link rel="stylesheet" href="https://www.bleague.jp/files/user/league_common/css/game.css?v=1516772099">
+<link rel="stylesheet" href="https://www.bleague.jp/files/user/assets/css/colorbox/colorbox.css?v=1517462115">
+
+
+<script type="text/javascript" src="https://b97.yahoo.co.jp/pagead/conversion_async.js"></script><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/747039193/?random=1652460597123&amp;cv=9&amp;fst=1652460597123&amp;num=1&amp;bg=ffffff&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=900&amp;u_w=1440&amp;u_ah=875&amp;u_aw=1440&amp;u_cd=24&amp;u_his=2&amp;u_tz=540&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;gtm=2wg5b0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.bleague.jp%2Fgame_detail%2F%3FScheduleKey%3D4113&amp;tiba=VS%20-%20B.LEAGUE%EF%BC%88B%E3%83%AA%E3%83%BC%E3%82%B0%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/711433049/?random=1652460597136&amp;cv=9&amp;fst=1652460597136&amp;num=1&amp;bg=ffffff&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=900&amp;u_w=1440&amp;u_ah=875&amp;u_aw=1440&amp;u_cd=24&amp;u_his=2&amp;u_tz=540&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;gtm=2oa5b0&amp;sendb=1&amp;ig=1&amp;data=event%3Dgtag.config&amp;frm=0&amp;url=https%3A%2F%2Fwww.bleague.jp%2Fgame_detail%2F%3FScheduleKey%3D4113&amp;tiba=VS%20-%20B.LEAGUE%EF%BC%88B%E3%83%AA%E3%83%BC%E3%82%B0%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/411087699/?random=1652460597138&amp;cv=9&amp;fst=1652460597138&amp;num=1&amp;bg=ffffff&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=900&amp;u_w=1440&amp;u_ah=875&amp;u_aw=1440&amp;u_cd=24&amp;u_his=2&amp;u_tz=540&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;gtm=2wg5b0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.bleague.jp%2Fgame_detail%2F%3FScheduleKey%3D4113&amp;tiba=VS%20-%20B.LEAGUE%EF%BC%88B%E3%83%AA%E3%83%BC%E3%82%B0%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script><script charset="utf-8" src="https://analytics.tiktok.com/i18n/pixel/identify.js"></script></head>
+
+
+<body id="page_topics_detail12" class="desktop under800 is-pc is-slide loaded" style="">
+
+<div id="contents_wrap">
+    <div id="contents_inner">
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3JDL9H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6HC6G6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+            <header>
+          <div class="bleague__header bleague__header-renewal">
+            <!--pc-->
+            <div class="bleague__header--current">
+              <ul class="gnav__sponsors">
+                <li><a rel="noopener" href="https://www.softbank.jp/" target="_blank"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/logo_sb.png_1513922885.webp?v=1618478531" alt="SoftBank"></a></li>
+                <li><a rel="noopener" href="https://stn.mb.softbank.jp/o1b6T" target="_blank"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/logo_bl.png_1633648469.webp?v=1633648483" alt="バスケットLIVE"></a></li>
+              </ul>
+              <ul class="gnav__main">
+                <li>
+                  <h1><a href="https://www.bleague.jp/"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/logo_bleague_black.png_1513922885.webp?v=1618478531" alt="BLG B.LEAGUE"></a></h1>
+                </li>
+                <li><a rel="noopener" href="https://instagram.com/b.league_official/" target="_blank"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/icon_insta.png_1513922883.webp?v=1618478531" alt="Instagram"></a></li>
+                <li><a rel="noopener" href="https://twitter.com/B_LEAGUE" target="_blank"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/icon_tw.png_1513922884.webp?v=1618478531" alt="Twitter"></a></li>
+                <li><a rel="noopener" href="https://www.facebook.com/B.LEAGUEOFFICIAL/?fref=ts" target="_blank"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/icon_fb.png_1513922883.webp?v=1618478531" alt="Facebook"></a></li>
+                <li><a rel="noopener" href="https://www.youtube.com/channel/UC4NpGzqd6nnntf8ehYC50-A" target="_blank"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/icon_yt.png_1513922884.webp?v=1618478531" alt="Youtube"></a></li>
+                <li><a rel="noopener" href="https://line.me/R/ti/p/%40b.league" target="_blank"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/icon_line.png_1513922883.webp?v=1618478531" alt="LINE"></a></li>
+                <li><a href="?lang=jp">
+                    <div class="lang">日</div></a></li>
+                <li><a href="?lang=en">
+                    <div class="lang">En</div></a></li>
+                <li><a href="?lang=zh">
+                    <div class="lang">中简</div></a></li>
+                <li><a href="?lang=hb">
+                    <div class="lang">中繁</div></a></li>
+                <li><a href="?lang=ko">
+                    <div class="lang">한</div></a></li>
+              </ul>
+            </div>
+            <!--prev,next-->
+            <div class="bleague__header--slider">
+              <button class="btn btn__prev"></button>
+              <button class="btn btn__next active"></button>
+            </div>
+            <!--sp-->
+            <div class="bleague__header--inner">
+              <div class="header__logo"><a href="https://www.bleague.jp/"><img src="https://www.bleague.jp/files/user/img/logo_bleague_black.svg?v=1632268321" alt="BLG B.LEAGUE"></a></div>
+              <ul class="header__list">
+                <li class="header__list--item"><a href="https://www.bleague.jp/schedule/?tab=1&amp;year=2021&amp;event=2" class="navi_schedule linkbtn">日程・結果</a></li>
+                <li class="header__list--item"><a href="https://www.bleague.jp/standings/" class="navi_standings linkbtn">順位表</a></li>
+                <li class="header__list--item"><a class="navi_basketlive linkbtn" href="https://www.bleague.jp/basketlive/" rel="noopener">ライブ・配信</a></li>
+                <li class="header__list--item"><a rel="noopener" class="navi_ticket linkbtn" href="https://bleague-ticket.psrv.jp/" target="_blank">チケット</a></li>
+              </ul>
+              <div class="header__hamburger">
+                <div><span></span><span></span><span></span></div>
+              </div>
+            </div>
+            <!--/.bleague__header--inner-->
+            <div id="header_nav_wrap" style="height: auto;">
+              <div class="header_nav_inner">
+                <ul class="nav_menu_list topics_detail12" style="left: 0px;"><!-- SYSNM=topics_detail12PAGE_NM/game_detail/-->
+                  <li><a href="https://www.bleague.jp/schedule/?tab=1&amp;year=2021&amp;event=2">日程・結果</a></li>
+                  <li>
+                    <div class="gnav-sub">
+                      <span class="gnav-sub-title">順位・成績</span>
+                      <ul class="nav_menu_sub">
+                        <li><a href="https://www.bleague.jp/standings/">順位表</a></li>
+                        <li><a href="https://www.bleague.jp/leaders/">個人成績</a></li>
+                        <li><a href="https://www.bleague.jp/stats/">スタッツ</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="https://www.bleague.jp/club/">クラブ・選手</a></li>
+                  <li><a rel="noopener" href="https://bleague-ticket.psrv.jp/" target="_blank">チケット</a></li>
+                  <li>
+                    <div class="gnav-sub">
+                      <span class="gnav-sub-title">B.LEAGUEを観る</span>
+                      <ul class="nav_menu_sub">
+                        <li><a href="https://www.bleague.jp/basketlive/">バスケットLIVE</a></li>
+                        <li><a href="https://www.bleague.jp/broadcast/?tab=1&amp;year=2021&amp;event=2">放送予定</a></li>
+                        <li><a href="https://www.bleague.jp/watching/">観戦マナー＆ルール</a></li>
+                        <li><a href="https://www.bleague.jp/watching/covid19_measures/">対コロナ来場・観戦</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="gnav-sub">
+                      <span class="gnav-sub-title">B.LEAGUEを知る</span>
+                      <ul class="nav_menu_sub">
+                        <li><a href="https://www.bleague.jp/news/">ニュース</a></li>
+                        <li><a href="https://www.bleague.jp/about/">B.LEAGUEとは</a></li>
+                        <li><a href="https://www.bleague.jp/membership/">B.LEAGUE会員</a></li>
+                        <li><a href="https://www.bleague.jp/new-bleague/">将来構想</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="gnav-sub">
+                      <span class="gnav-sub-title">B.PROJECT</span>
+                      <ul class="nav_menu_sub">
+                        <li><a href="https://www.bleague.jp/b-hope/">B.LEAGUE HOPE</a></li>
+                        <li><a href="https://www.bleague.jp/bdreamproject/">B.DREAM</a></li>
+                        <li><a href="https://www.bleague.jp/u18/">U18</a></li>
+                        <li><a href="https://www.bleague.jp/u15/">U15</a></li>
+                        <li><a href="https://www.bleague.jp/tryout/2022/">TRYOUT</a></li>
+                        <li><a href="https://www.bleague.jp/coaching-session_lp/">COACHING SESSION</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a rel="noopener" href="https://www.bleague-shop.jp/" target="_blank">グッズ</a></li>
+                  <!-- li><a href="https://www.bleague.jp/u15/" >U15</a></li -->
+                </ul>
+                <div class="lang"><a class="lang-modal" href="#inline-wrap"><span class="no-write">Language</span></a></div>
+              </div>
+            </div>
+            <!--/#header_nav_wrap-->
+          </div>
+          <!--/.bleague__header-->
+        </header>
+        <!--/header-->
+        <div class="mfp-hide" id="inline-wrap">
+          <div class="mfp-modal">
+            <div class="mfp__head"><strong>言語選択</strong></div>
+            <div class="mfp__body">
+              <p class="small">Select Language</p>
+              <ul class="lang__list">
+                <li class="lang__list--item">
+                  <div class="radio">
+                    <input id="lang_ja" name="lang_type" type="radio" value="lang_ja">
+                    <label class="radio-label" for="lang_ja">日本語</label>
+                  </div>
+                </li>
+                <li class="lang__list--item">
+                  <div class="radio">
+                    <input id="lang_us" name="lang_type" type="radio" value="lang_us">
+                    <label class="radio-label" for="lang_us">English</label>
+                  </div>
+                </li>
+                <li class="lang__list--item">
+                  <div class="radio">
+                    <input id="lang_c1" name="lang_type" type="radio" value="lang_c1">
+                    <label class="radio-label" for="lang_c1">中文 簡体字</label>
+                  </div>
+                </li>
+                <li class="lang__list--item">
+                  <div class="radio">
+                    <input id="lang_c2" name="lang_type" type="radio" value="lang_c2">
+                    <label class="radio-label" for="lang_c2">中文 繁体字</label>
+                  </div>
+                </li>
+                <li class="lang__list--item">
+                  <div class="radio">
+                    <input id="lang_kr" name="lang_type" type="radio" value="lang_kr">
+                    <label class="radio-label" for="lang_kr">한국어</label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="mfp__foot">
+              <p class="btn_wrap btn_effect"><a class="c_btn bdr" id="langChange" href="javascript:void(0);"><span class="txt">OK</span></a></p>
+            </div>
+          </div>
+        </div>
+        <!--/./mfp-hide-->
+        
+        
+		
+		
+        
+        
+
+
+
+
+    
+
+
+    
+
+
+
+                                                                            
+
+
+
+
+
+
+
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+                    
+                        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+
+    
+
+
+
+
+
+    
+
+<script>
+(function(j$){
+    if (typeof _contexts_s3id == "undefined") {
+        _contexts_s3id = {};
+    }
+    _contexts_s3id[4113]=0;
+})(jQuery);
+</script>
+<!--
+-->
+    
+    
+
+<script type="text/javascript">
+    _teams = {
+                "2486":"/files/user/common/img/logo//bg-black/s/ac.png"
+                    ,"1639":"/files/user/common/img/logo//bg-black/s/to.png"
+                    ,"1638":"/files/user/common/img/logo//bg-black/s/sg.png"
+                    ,"745":"/files/user/common/img/logo//bg-black/s/ka.png"
+                    ,"724":"/files/user/common/img/logo//bg-black/s/kv.png"
+                    ,"717":"/files/user/common/img/logo//bg-black/s/fe.png"
+                    ,"722":"/files/user/common/img/logo//bg-black/s/fa.png"
+                    ,"718":"/files/user/common/img/logo//bg-black/s/ns.png"
+                    ,"711":"/files/user/common/img/logo//bg-black/s/ff.png"
+                    ,"692":"/files/user/common/img/logo//bg-black/s/se.png"
+                    ,"729":"/files/user/common/img/logo//s/dd.png"
+                    ,"727":"/files/user/common/img/logo//bg-black/s/kb.png"
+                    ,"720":"/files/user/common/img/logo//bg-black/s/ss.png"
+                    ,"706":"/files/user/common/img/logo//bg-black/s/at.png"
+                    ,"704":"/files/user/common/img/logo//bg-black/s/cj.png"
+                    ,"703":"/files/user/common/img/logo//bg-black/s/ub.png"
+                    ,"701":"/files/user/common/img/logo//bg-black/s/rg.png"
+                    ,"693":"/files/user/common/img/logo//bg-black/s/an.png"
+                    ,"53000038":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000037":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000047":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000046":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000045":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000044":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000043":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000042":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000041":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000040":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000070":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000069":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000071":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000068":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000036":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000039":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000065":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000064":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000060":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000061":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000059":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000058":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000056":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000055":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000057":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000054":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"2488":"/files/user/common/img/logo//bg-black/s/nv.png"
+                    ,"2487":"/files/user/common/img/logo//bg-black/s/yp.png"
+                    ,"748":"/files/user/common/img/logo//bg-black/s/cr.png"
+                    ,"709":"/files/user/common/img/logo//bg-black/s/ib.png"
+                    ,"714":"/files/user/common/img/logo//bg-black/s/ex.png"
+                    ,"725":"/files/user/common/img/logo//bg-black/s/rk.png"
+                    ,"744":"/files/user/common/img/logo//bg-black/s/sb.png"
+                    ,"749":"/files/user/common/img/logo//bg-black/s/hb.png"
+                    ,"750":"/files/user/common/img/logo//bg-black/s/ks.png"
+                    ,"751":"/files/user/common/img/logo//bg-black/s/aa.png"
+                    ,"752":"/files/user/common/img/logo//bg-black/s/ts.png"
+                    ,"1363":"/files/user/common/img/logo//bg-black/s/gs.png"
+                    ,"1637":"/files/user/common/img/logo//bg-black/s/vs.png"
+                    ,"753":"/files/user/common/img/logo//bg-black/s/rf.png"
+                    ,"723":"/files/user/common/img/logo//bg-black/s/eo.png"
+                    ,"715":"/files/user/common/img/logo//bg-black/s/ez.png"
+                    ,"719":"/files/user/common/img/logo//bg-black/s/bn.png"
+                    ,"710":"/files/user/common/img/logo//bg-black/s/yw.png"
+                    ,"708":"/files/user/common/img/logo//bg-black/s/aw.png"
+                    ,"713":"/files/user/common/img/logo//bg-black/s/gc.png"
+                    ,"712":"/files/user/common/img/logo//bg-black/s/ir.png"
+                    ,"728":"/files/user/common/img/logo//bg-black/s/sm.png"
+                    ,"726":"/files/user/common/img/logo//bg-black/s/sr.png"
+                    ,"721":"/files/user/common/img/logo//bg-black/s/hd.png"
+                    ,"716":"/files/user/common/img/logo//bg-black/s/bw.png"
+                    ,"702":"/files/user/common/img/logo//bg-black/s/lh.png"
+                    ,"700":"/files/user/common/img/logo//bg-black/s/oe.png"
+                    ,"699":"/files/user/common/img/logo//bg-black/s/kh.png"
+                    ,"698":"/files/user/common/img/logo//bg-black/s/ls.png"
+                    ,"697":"/files/user/common/img/logo//bg-black/s/sn.png"
+                    ,"696":"/files/user/common/img/logo//bg-black/s/tg.png"
+                    ,"695":"/files/user/common/img/logo//bg-black/s/na.png"
+                    ,"694":"/files/user/common/img/logo//bg-black/s/yb.png"
+                    ,"53000053":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000052":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000050":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"53000051":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"5300000030":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"5300000014":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"5300000021":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"5300000024":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"5300000018":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"5300000033":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"5300000029":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"5300000017":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"5300000001":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"5300000006":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"5300000003":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"5300000009":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"835":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"836":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1812":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1811":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1810":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1809":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1035":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1034":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1829":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1828":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1827":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1826":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1824":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1822":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1835":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1834":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1820":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1819":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1818":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1817":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1816":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1815":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1814":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1813":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1808":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1807":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1806":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1805":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1623":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1622":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1621":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1620":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1246":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1245":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1244":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1243":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1242":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1241":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1240":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1239":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1399":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1391":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1389":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1387":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1386":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1368":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1367":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1366":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1365":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1380":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1379":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1378":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1377":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1397":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1376":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1375":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1374":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1385":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1384":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1383":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1382":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1364":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1396":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1395":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1393":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1373":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1372":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1371":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1370":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1369":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"746":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1254":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1253":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1252":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1251":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1250":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1249":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1248":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1247":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1071":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1070":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1069":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1068":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1067":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1066":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1065":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"1064":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"786":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"785":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"784":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"783":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"782":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"756":"/files/user/common/img/logo//bg-black/s/.png"
+                    ,"755":"/files/user/common/img/logo//bg-black/s/.png"
+           };
+</script>
+
+
+
+
+
+<script src="https://www.bleague.jp/files/user/game/js.cookie.min.js?v=1519293071"></script>
+<script>
+
+    window._contexts = {};
+
+    _contexts.scheduleKey = 4113;
+    _contexts.timerId = 0;
+    _contexts.transfer = false;
+    _contexts.errorCount = 0;
+    _contexts.boxscoreSort = 0;
+            //_contexts.isFinal = true;
+            _contexts.isFinal = false;
+        _contexts.refresh = Cookies.get('refresh') || 'auto';
+    _contexts.maxId = (!!_contexts_s3id)? _contexts_s3id[4113]: 0;
+    _contexts.event = "";
+    _contexts.date = "";
+    _contexts.nowdate = "2022/05/14";
+    _contexts.tomorrowdate = "1970/01/02";
+</script>
+
+            <script src="https://www.bleague.jp/files/js/front/user/game/game.js?v=1647485106"></script>
+    
+<script type="text/javascript">
+    _positions = {
+            "505555531":""
+            ,"505007634":"PG"
+       };
+</script>
+
+<!-- contents -->
+<div id="contents_wrap">
+    <!-- 試合結果部分  -->
+    <section id="game__top">
+        <div id="game__top__inner">
+            <ul class="game_refresh_btn_wrap">
+                <li>
+                    <div id="game_refresh_auto" class="game_refresh_btn game_refresh_btn_selected" style="">
+                        <i class="fa fa-refresh" aria-hidden="true"></i>自動更新
+                    </div>
+                </li>
+                <li>
+                    <div id="btn_refresh_manual" class="game_refresh_btn" style="">
+                        <i class="fa fa-hand-pointer-o" aria-hidden="true"></i>手動更新
+                    </div>
+                </li>
+            </ul><!-- game_refresh_btn_wrap -->
+            <div class="date_wrap">
+                <p class="year"></p>
+                <p class="date"><span class="month"></span></p>
+                                <p class="time"> TIP OFF</p>
+            </div><!-- date_wrap -->
+            <div class="result_wrap">
+
+                <div class="team_wrap home ">
+                    <div class="team_name"><p class="for-pc"></p><p class="for-sp"></p></div>
+                    <div class="team_logo">
+                                                    <img src="https://www.bleague.jp/files/user/common/img/logo//bg-black/s/.png?v=" alt="">
+                                            </div> 
+                    <div class="team_point"></div>
+                </div>
+
+                <div class="game_score_wrap">
+                                    <p class="game_score_title">試合前</p>
+                                
+                                    <table class="score_table">
+                        <tbody>
+                            <tr>
+                                <td class="quarter_score Home"></td>
+                                <td class="quarter_name"></td>
+                                <td class="quarter_score Away"></td>
+                            </tr>
+                            <tr>
+                                <td class="quarter_score Home"></td>
+                                <td class="quarter_name"></td>
+                                <td class="quarter_score Away"></td>
+                            </tr>
+                            <tr>
+                                <td class="quarter_score Home"></td>
+                                <td class="quarter_name"></td>
+                                <td class="quarter_score Away"></td>
+                            </tr>
+                            <tr>
+                                <td class="quarter_score Home"></td>
+                                <td class="quarter_name"></td>
+                                <td class="quarter_score Away"></td>
+                            </tr>
+                            <tr class="total_score" style="border:none;">
+                                <td class="quarter_score Home"></td>
+                                <td class="quarter_name"></td>
+                                <td class="quarter_score Away"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                                    </div>
+
+                <div class="team_wrap away ">
+                    <div class="team_name"><p class="for-pc"></p><p class="for-sp"></p></div>
+                    <div class="team_logo">
+                                                    <img src="https://www.bleague.jp/files/user/common/img/logo//bg-black/s/.png?v=" alt="">
+                                            </div>
+                    <div class="team_point"></div>
+                </div>
+
+            </div><!-- result_wrap -->
+            <div class="place_wrap">
+                <p class="StadiumNameJ">会場：</p>
+                <p class="Attendance"></p>
+            </div>
+            <div class="referee_wrap">
+                <p>レフェリー：</p>
+            </div>
+                                    <div class="live_btn">
+                                                    </div>
+            <div class="sns_wrap">
+                <p class="sns_list_title">SHARE ON</p>
+                <ul class="sns_list">
+                    <li><a rel="noopener" href="https://twitter.com/intent/tweet?url=https://www.bleague.jp/game_detail/?ScheduleKey=4113&amp;text=   VS %0d" target="_blank"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/btn_tw.png_1514441691.webp?v=1618478546" alt=""></a></li>
+                    <li><a rel="noopener" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.bleague.jp/game_detail/?ScheduleKey=4113"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/btn_fb.png_1514441691.webp?v=1618478546" alt=""></a></li>
+                    
+                                    </ul>
+            <div>
+        </div>
+    </div></div></section>
+
+    <!-- 試合結果分析  -->
+    <section id="game__result">
+        <div id="game__result__inner">
+            <div class="tab_wrap">
+                <ul class="first_tab">
+                                            <li><p>GAME <br class="for-sp">REPORT</p>
+                            <span class="background"></span>
+                        </li>
+                        <li class="select"><p>PLAY <br class="for-sp">BY PLAY</p>
+                            <span class="background"></span>
+                        </li>
+                                        <li><p>BOX <br class="for-sp">SCORE</p>
+                        <span class="background"></span>
+                    </li>
+                </ul>
+                <ul class="first_contents">
+                    <!-- HIGHLIGHT / GAME REPORT -->
+                                            <li>
+                                            <div id="game__highlight">
+                            <div id="game__highlight__inner">
+                                <div class="highlight_title_wrap">
+                                    <div class="team_wrap home">
+                                                                                    <img src="https://www.bleague.jp/files/user/common/img/logo//bg-black/s/.png?v=" alt=""> 
+                                                                                
+                                    </div>
+                                    <div class="team_wrap away">
+                                        
+                                                                                    <img src="https://www.bleague.jp/files/user/common/img/logo//bg-black/s/.png?v=" alt="">
+                                                                            </div>
+                                </div>
+                                                                
+                                <div class="highlight_link_wrap for-pc">
+                                                                        <div class="highlight_link">
+                                        <h3>GAME REPORT</h3>
+                                        <p>ゲームレポート</p>
+                                        <ul class="link_list">
+                                                                                        <li><a rel="noopener" class="home" href="https://www.bleague.jp/game/?YMD=&amp;KEY=4113&amp;TAB=R" target="_blank">HOME チームの GAME REPORT を見る<i class="fa fa-window-restore fa-fw" aria-hidden="true"></i></a></li>
+                                            <li><a rel="noopener" class="away" href="https://www.bleague.jp/game/?YMD=&amp;KEY=4113&amp;TAB=R" target="_blank">AWAY チームの GAME REPORT を見る<i class="fa fa-window-restore fa-fw" aria-hidden="true"></i></a></li>
+                                                                                    </ul>
+                                    </div>
+                                </div>
+                                
+                                                                <div class="highlight_link_wrap for-sp">
+                                                                            <div class="highlight_link">
+                                            <h3>HIGHLIGHT</h3>
+                                            <p>ハイライト</p>
+                                            <ul class="link_list">
+                                                <!-- <li><a rel="noopener" class="home game_news" data-team_media_id="" data-game_date="" href="javascript:void(0)" target="_blank">HOME チームのハイライトを見る<i class="fa fa-window-restore fa-fw" aria-hidden="true"></i></a></li>
+                                                <li><a rel="noopener" class="away game_news" data-team_media_id="" data-game_date="" href="javascript:void(0)" target="_blank">AWAY チームのハイライトを見る<i class="fa fa-window-restore fa-fw" aria-hidden="true"></i></a></i></li> -->
+                                                <li><a rel="noopener" class="home" data-team_media_id="" data-game_date="" href="https://basketball.mb.softbank.jp/videos?league_id=bleague&amp;tags=2&amp;team_id=" target="_blank">HOME チーム<i class="fa fa-window-restore fa-fw" aria-hidden="true"></i></a></li>
+                                                <li><a rel="noopener" class="away" data-team_media_id="" data-game_date="" href="https://basketball.mb.softbank.jp/videos?league_id=bleague&amp;tags=2&amp;team_id=" target="_blank">AWAY チーム<i class="fa fa-window-restore fa-fw" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                                                        <div class="highlight_link">
+                                        <h3>GAME REPORT</h3>
+                                        <p>ゲームレポート</p>
+                                        <ul class="link_list">
+                                                                                        <li><a rel="noopener" class="home" href="https://www.bleague.jp/game/?YMD=&amp;KEY=4113&amp;TAB=R" target="_blank">HOME チーム<i class="fa fa-window-restore fa-fw" aria-hidden="true"></i></a></li>
+                                            <li><a rel="noopener" class="away" href="https://www.bleague.jp/game/?YMD=&amp;KEY=4113&amp;TAB=R" target="_blank">AWAY チーム<i class="fa fa-window-restore fa-fw" aria-hidden="true"></i></a></li>
+                                                                                    </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <!-- PLAY BY PLAY -->
+                                            <li class="select">
+                                            <div id="game__playbyplay">
+                            <div id="game__playbyplay__inner">
+                                <ul class="game_playbyplay_selector_wrap">
+                                    <li>
+                                        <div id="game_playbyplay_selector_text" class="game_playbyplay_selector_btn game_playbyplay_selector_btn_selected" style="">
+                                            <i class="fa fa-align-justify" aria-hidden="true"></i>テキスト
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div id="game_playbyplay_selector_graph" class="game_playbyplay_selector_btn" style="">
+                                            <i class="fa fa-line-chart" aria-hidden="true"></i>グラフ
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="playbyplay_quarters">
+                                    <li class="select">ALL</li>
+                                                                    </ul>
+                                <ul class="playbyplay_contents playbyplay_contents_text">
+                                                                                                            <li class="select">
+                                            <ul class="play_list" data-period="">
+                                            </ul><!-- play_list -->
+                                        </li>
+                                                                            <li class="select">
+                                            <ul class="play_list" data-period="">
+                                            </ul><!-- play_list -->
+                                        </li>
+                                                                            <li class="select">
+                                            <ul class="play_list" data-period="">
+                                            </ul><!-- play_list -->
+                                        </li>
+                                                                            <li class="select">
+                                            <ul class="play_list" data-period="">
+                                            </ul><!-- play_list -->
+                                        </li>
+                                                                    </ul><!-- playbyplay_contents -->
+                                <ul class="playbyplay_contents playbyplay_contents_graph" style="display:none">
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- BOX SCORE -->
+                    <li>
+                        <div id="game__boxscore">
+                            <div id="game__boxscore__inner">
+                                <ul class="boxscore_quarters">
+                                    <li class="select">ALL</li>
+                                                                                                                                            </ul><!-- boxscore_quarters -->
+                                <ul class="boxscore_contents">
+                                                                    </ul><!-- boxscore_contents -->
+                            </div><!-- game__boxscore__inner -->
+                        </div><!-- game__boxscore -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<script src="https://www.bleague.jp/files/user/assets/js/jquery.colorbox.js?v=1513679619"></script>
+
+<script>
+$(".game_news").on('click', function(){
+    gameNewsLink($(this).attr('data-team_media_id'), $(this).attr('data-game_date'))
+});
+// ツールチップBS
+function tipsBoxscore() {
+    var $tipsParent = $(document.querySelectorAll('.tips-parent > [data-tips]'));
+    $tipsParent.off().on({
+        'mouseenter': function(event) {
+            var $tips = $('.bs-tips-wrap');
+            if(!$tips.length) {
+                $('body').append('<div class="bs-tips-wrap tips-wrap"><div class="tips-inner"><div class="tips-content"><span></span></div></div></div>');
+                $tips = $('.bs-tips-wrap');
+            }
+            // 一度定義しないと取得値がおかしくなる
+            var $this = $(this);
+            var w = $this.outerWidth(true),
+                h = $this.outerHeight(true),
+                y = $this.offset().top,
+                x = $this.offset().left,
+                tipsW = $tips.width() / 2 - w / 2,
+                tipsH = $tips.height(),
+                txt = $this.data('tips');
+            $tips.find('span').text(txt);
+            $tips.css({
+                top: y - tipsH,
+                left: x - tipsW
+            });
+            var w = $this.outerWidth(true),
+                h = $this.outerHeight(true),
+                y = $this.offset().top,
+                x = $this.offset().left,
+                tipsW = $tips.width() / 2 - w / 2,
+                tipsH = $tips.height(),
+                txt = $this.data('tips');
+            $tips.find('span').text(txt);
+            $tips.css({
+                top: y - tipsH,
+                left: x - tipsW
+            }).show();
+        },
+        'mouseleave': function(event) {
+            $('.bs-tips-wrap').hide();
+        }
+    });
+}
+//スコアをクリックしたとき
+$(document).on('click', '#game__result .tab_wrap ul.first_tab > li', function() {
+    // 遅延処理
+    setTimeout(tipsBoxscore, 1000);
+});
+</script>
+<style>
+.display-no {
+    display: none;
+}
+@media only screen and (min-width: 641px){
+    .sp-view{
+        display:none;
+    }
+    #game__playbyplay .playbyplay_contents_text .play_list li.official_time_out{
+        flex-direction:unset;
+        display:-webkit-box;
+    }
+}
+@media only screen and (max-width: 641px){
+    .pc-view{
+        display:none;
+    }
+}
+</style>
+
+
+
+		
+		
+		
+		
+		
+		<script src="https://www.bleague.jp/files/user/league_common/js/jquery.cookie.js?v=1513738494"></script>
+<script src="https://www.bleague.jp/files/user/league_common/js/plugins.js?v=1513738495"></script>
+<script src="https://www.bleague.jp/files/js/front/user/league_common.js?v=1631495995&amp;s=1652460595"></script>
+<!--<script src="https://www.bleague.jp/files/user/league_common/js/const.js?v=1584432506"></script>-->
+
+        <section id="bleague__footer-banner">
+          <div class="footer_bnr_box">
+            <div class="footer_bnr_box_logo"><a rel="noopener" class="footer_bnr_img" href="https://basketball.mb.softbank.jp/?utm_source=bleague&amp;utm_medium=bleague&amp;utm_campaign=201" target="_blank"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/bnr_live5glabo_logo.png_1642194144.webp?v=1643591078" alt=""></a></div>
+            <div class="footer_bnr_box_content">
+              <p class="footer_bnr_box_content_text">B.LEAGUE、日本代表、Wリーグ、学生バスケまで<br>試合をライブ＆見逃し配信</p>
+              <p class="button"><a href="https://www.bleague.jp/basketlive/" class="footer_basketlive_lp">詳しく見る</a></p>
+            </div>
+          </div>
+        </section>
+        <section class="gototop">
+          <!--  -->
+          <!-- <div class="footer_bnr_wrap"> -->
+            <!--<a rel="noopener" href="https://bleague-ticket.psrv.jp/" target="_blank" class="footer_bnr_img_b" onclick="dataLayer.push({'event':'fireEvent','eventCategory':'本体_Footer','eventAction':'click','eventLabel':'Global_B.LEAGUE TICKET'})"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/ticket_bnr.jpg_1600894895.webp?v=1618478533" alt=""></a>-->
+            <!-- <div class="footer_bnr">
+              <a rel="noopener" href="https://bleague-ticket.psrv.jp/" target="_blank" class="footer_bnr_img_s" onclick="dataLayer.push({'event':'fireEvent','eventCategory':'本体_Footer','eventAction':'click','eventLabel':'Global_B.LEAGUE TICKET_21-22'})"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/ticket_bnr_21-22.png_1629950690.webp?v=1629950700" alt=""></a>
+              <a rel="noopener" href="https://basketball.mb.softbank.jp/?utm_source=bleague&amp;utm_medium=bleague&amp;utm_campaign=201" target="_blank" class="footer_bnr_img_s" onclick="dataLayer.push({'event':'fireEvent','eventCategory':'本体_Footer','eventAction':'click','eventLabel':'Global_バスケットLIVE'})"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/live_bnr.png_1637281069.webp?v=1637281101" alt=""></a>
+            </div>
+          </div>
+           -->
+          <div class="gototop__inner"><a href="https://www.bleague.jp/">BACK TO TOP</a></div>
+        </section>
+        <!--/./gototop-->
+
+        <footer>
+          <div id="bleague__footer">
+            <div id="bleague__footer__inner">
+              <div id="footer_nav_wrap" class="footer-renewal"><a id="gotop" href="#page_top" data-custom-scroll=""><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/arrow_top.png_1513922882.webp?v=1618478533" alt="Topへ"></a>
+                <div class="footer_nav-renewal">
+                  <ul class="footer_nav_l">
+                    <li class="lg"><a href="https://www.bleague.jp/faq/">お問い合わせ</a></li>
+                    <li><a href="https://www.bleague.jp/b-hope/">SDGsへの取り組み</a></li>
+                    <li><a href="https://www.bleague.jp/archives/">アーカイブ</a></li>
+                    <li><a href="https://www.bleague.jp/recruit/">採用情報</a></li>
+                    <li><a href="https://www.bleague.jp/media/">メディア</a></li>
+                  </ul>
+                  <ul class="footer_nav_s">
+                    <li><a href="https://www.bleague.jp/regulation/">レギュレーション</a></li>
+                    <li><a href="https://www.bleague.jp/audience-policy/">観戦約款</a></li>
+                    <li><a rel="noopener" href="https://www.bleague.jp/files/user/common/pdf/privacy_policy20210309.pdf" target="_blank">個人情報保護方針</a></li>
+                    <li><a href="https://www.bleague.jp/rule">定款・規約・規程</a></li>
+                    <li><a href="https://www.bleague.jp/site/">利用規約</a></li>
+                    <li><a href="https://www.bleague.jp/watching_en/">Manners and Rules for Spectators</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!--.#/footer_nav_wrap-->
+              <div id="footer_bottom_wrap">
+                <ul class="footer_banner">
+                  <li><a rel="noopener" href="http://www.toto-growing.com/" target="_blank"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/league_common/img/logo_yoko_color_253x50.jpg_1527151102.webp?v=1618478533" alt="スポーツくじ"></a></li>
+                  <li><a rel="noopener" href="https://www.jpnsport.go.jp/sinko/josei/tabid/75/Default.aspx" target="_blank"><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/league_common/img/footer-banner-01.jpg_1518577902.webp?v=1618478533" alt="競技強化支援助成事業"></a></li>
+                </ul>
+                <div class="footer_bleague_wrap">
+                  <ul class="footer_bleague_text">
+                    <li><img src="https://www.bleague.jp/files/rcms_conv_webp/files/user/img/logo_bleague.png_1513922884.webp?v=1618478531" alt="BLG B.LEAGUE"></li>
+                    <!---->
+                    <li><a href="https://www.bleague.jp/">公益社団法人ジャパン・プロフェッショナル・バスケットボールリーグ<br>JAPAN PROFESSIONAL BASKETBALL LEAGUE</a></li>
+                  </ul>
+                </div>
+              </div>
+              <ul class="footer_link_external">
+                <li class="footer_link_external_ttl">令和3年度スポーツ庁補助事業</li>
+                <li><a rel="noopener" href="https://www.bmarketing.jp/" target="_blank">B.MARKETING（ビーマーケティング）株式会社</a></li>
+                <li><a rel="noopener" href="http://www.japanbasketball.jp/" target="_blank">公益財団法人日本バスケットボール協会（JBA）</a></li>
+                <li><a rel="noopener" href="http://www.b3league.jp/" target="_blank">一般社団法人ジャパン・バスケットボールリーグ（B3）</a></li>
+              </ul>
+              <p class="footer_copyright">COPYRIGHT (c)JAPAN PROFESSIONAL BASKETBALL LEAGUE<br class="for-sp">All RIGHTS RESERVED.</p>
+              <!--.#/footer_bottom_wrap-->
+            </div>
+            <!--.#/bleague__footer__inner-->
+          </div>
+          <!--.#/bleague__footer-->
+            </footer>
+    </div>
+</div>
+
+<script id="tagjs" type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=JJkzVlU&referrer=" + encodeURIComponent(document.location.href);
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=JJkzVlU" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div>
+<script type="text/javascript" id="" src="https://www.googletagmanager.com/gtag/js?id=AW-711433049"></script><div style="display: none; visibility: hidden;"><script async="null" src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
+<script>window.yjDataLayer=window.yjDataLayer||[];function ytag(){yjDataLayer.push(arguments)}ytag({type:"ycl_cookie"});</script></div><div style="display: none; visibility: hidden;">
+<script type="text/javascript">var yahoo_ss_retargeting_id=1001093096,yahoo_sstag_custom_params=window.yahoo_sstag_params,yahoo_ss_retargeting=!0;</script>
+<script type="text/javascript" src="https://s.yimg.jp/images/listing/tool/cv/conversion.js"></script>
+<noscript></noscript></div><div style="display: none; visibility: hidden;">
+<script type="text/javascript" language="javascript">var yahoo_retargeting_id="UMR81QKF8F",yahoo_retargeting_label="",yahoo_retargeting_page_type="",yahoo_retargeting_items=[{item_id:"",category_id:"",price:"",quantity:""}];</script>
+<script type="text/javascript" language="javascript" src="https://b92.yahoo.co.jp/js/s_retargeting.js"></script></div>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","2477941125595838");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2477941125595838&amp;ev=PageView&amp;noscript=1"></noscript>
+<script type="text/javascript" id="">!function(d,g,e){d.TiktokAnalyticsObject=e;var a=d[e]=d[e]||[];a.methods="page track identify instances debug on off once ready alias group enableCookie disableCookie".split(" ");a.setAndDefer=function(b,c){b[c]=function(){b.push([c].concat(Array.prototype.slice.call(arguments,0)))}};for(d=0;d<a.methods.length;d++)a.setAndDefer(a,a.methods[d]);a.instance=function(b){b=a._i[b]||[];for(var c=0;c<a.methods.length;c++)a.setAndDefer(b,a.methods[c]);return b};a.load=function(b,c){var f="https://analytics.tiktok.com/i18n/pixel/events.js";
+a._i=a._i||{};a._i[b]=[];a._i[b]._u=f;a._t=a._t||{};a._t[b]=+new Date;a._o=a._o||{};a._o[b]=c||{};c=document.createElement("script");c.type="text/javascript";c.async=!0;c.src=f+"?sdkid\x3d"+b+"\x26lib\x3d"+e;b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(c,b)};a.load("C0U97HHURMH959SC2R5G");a.page()}(window,document,"ttq");</script>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","584188252396950");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=584188252396950&amp;ev=PageView&amp;noscript=1"></noscript>
+
+<script type="text/javascript" id="">var _uic=_uic||{},_uih=_uih||{};_uih.id=55550;_uih.lg_id="";_uih.fb_id="";_uih.tw_id="";_uih.uigr_1="";_uih.uigr_2="";_uih.uigr_3="";_uih.uigr_4="";_uih.uigr_5="";_uih.uigr_6="";_uih.uigr_7="";_uih.uigr_8="";_uih.uigr_9="";_uih.uigr_10="";_uic.uls=1;(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cs.nakanohito.jp/b3/bi.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
+
+<script type="text/javascript" id="">var _uiconv=_uiconv||[],_uiconv_value={id:"bl_media",price:"",item_code:"",free_1:"",free_2:"",free_3:"",free_4:"",free_5:"",free_6:"",free_7:"",free_8:"",free_9:"",free_10:""};_uiconv.push(_uiconv_value);</script>
+
+<script type="text/javascript" id="">var _uiconv=_uiconv||[],_uiconv_value={id:"bl_bleague-ticket_click",price:"",item_code:"",free_1:"",free_2:"",free_3:"",free_4:"",free_5:"",free_6:"",free_7:"",free_8:"",free_9:"",free_10:""};_uiconv.push(_uiconv_value);</script>
+<script type="text/javascript" id="" charset="utf-8" src="//cdn.kaizenplatform.net/s/5f/a2a0dbc12b3c33.js?kz_namespace=kzs" data-kz-loaded-sitejs-id="5fa2a0dbc12b3c33"></script><img src="https://analytics.twitter.com/i/adsct?type=javascript&amp;version=2.3.9&amp;p_id=Twitter&amp;p_user_id=0&amp;txn_id=o2efs&amp;events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&amp;tw_order_quantity=0&amp;tw_sale_amount=0&amp;tw_iframe_status=0&amp;event_id=8f177dc5-4c64-4d3d-8544-ecf42653b65c&amp;tw_document_href=https%3A%2F%2Fwww.bleague.jp%2Fgame_detail%2F%3FScheduleKey%3D4113" height="1" width="1" style="display: none;"><img src="https://t.co/i/adsct?type=javascript&amp;version=2.3.9&amp;p_id=Twitter&amp;p_user_id=0&amp;txn_id=o2efs&amp;events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&amp;tw_order_quantity=0&amp;tw_sale_amount=0&amp;tw_iframe_status=0&amp;event_id=8f177dc5-4c64-4d3d-8544-ecf42653b65c&amp;tw_document_href=https%3A%2F%2Fwww.bleague.jp%2Fgame_detail%2F%3FScheduleKey%3D4113" height="1" width="1" style="display: none;">
+<script type="text/javascript" id="">window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date);gtag("config","AW-711433049");</script></body><iframe id="__JSBridgeIframe_1.0__" style="display: none;"></iframe><iframe id="__JSBridgeIframe_SetResult_1.0__" style="display: none;"></iframe><iframe id="__JSBridgeIframe__" style="display: none;"></iframe><iframe id="__JSBridgeIframe_SetResult__" style="display: none;"></iframe></html>
